@@ -46,6 +46,7 @@ Open the `Task Scheduler`:
   * Press `Enter`
 
 Follow the steps below:
+
 1. ![General](https://raw.githubusercontent.com/dosaki/annoyer/master/w_1_general.png)
 2. ![Trigger](https://raw.githubusercontent.com/dosaki/annoyer/master/w_2_trigger.png)
 3. ![Action](https://raw.githubusercontent.com/dosaki/annoyer/master/w_3_action.png)
