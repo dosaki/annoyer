@@ -9,5 +9,5 @@ class SmsSender(object):
     def send(self, to_number, message):
         print "Sending to %s" % to_number
         print message
-        # client = TwilioRestClient(self.account_sid, self.auth_token)
-        # message = client.messages.create(to=to_number, from_=self.from_number, body=message)
+        client = TwilioRestClient(self.account_sid, self.auth_token)
+        message = client.messages.create(to=to_number, from_=self.from_number, body=message)
