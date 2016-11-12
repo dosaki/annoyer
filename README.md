@@ -13,7 +13,7 @@ To annoy [this man here](https://github.com/mfontoura) as part of the Internatio
   * On a command line type: `pip install twilio`
 
 # How to Use
-1. Simply register for a [free twilio account](https://www.twilio.com/try-twilio).
+1. Simply register for a [free twilio account](https://www.twilio.com/try-twilio) (free accounts need to have the receiver number approved).
   1. ![Twilio: Fill your details](https://raw.githubusercontent.com/dosaki/annoyer/master/1_fill_your_details.png)
   2. ![Twilio: Insert Number](https://raw.githubusercontent.com/dosaki/annoyer/master/2_insert_number.png)
 2. Fill in the twilio details in `twilio.cfg`:
