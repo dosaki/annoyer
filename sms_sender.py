@@ -1,4 +1,4 @@
-from twilio.rest import TwilioRestClient
+from twilio.rest import Client
 
 class SmsSender(object):
     def __init__(self, account_sid, auth_token, from_number):
@@ -7,7 +7,7 @@ class SmsSender(object):
         self.from_number = from_number
 
     def send(self, to_number, message):
-        print "Sending to %s" % to_number
-        print message
-        client = TwilioRestClient(self.account_sid, self.auth_token)
+        print("Sending to %s" % to_number)
+        print(message)
+        client = Client(self.account_sid, self.auth_token)
         message = client.messages.create(to=to_number, from_=self.from_number, body=message)

@@ -1,8 +1,8 @@
-import ConfigParser, os
+import configparser, os
 
 class Config(object):
     def __init__(self, file_path):
-        self.config = ConfigParser.ConfigParser()
+        self.config = configparser.ConfigParser()
         self.config.read(file_path)
 
     def get(self, section):

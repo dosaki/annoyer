@@ -3,7 +3,7 @@ from reader import Reader
 from sms_sender import SmsSender
 
 conf = Config("twilio.cfg")
-print conf.get("twilio")
+print(conf.get("twilio"))
 facts = Reader("facts.txt")
 twilio_options = conf.get("twilio")
 victim_number = conf.get("victim")['number']
